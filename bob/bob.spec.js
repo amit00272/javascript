@@ -69,7 +69,7 @@ describe('Bob', function() {
         var result = bob.hey('\xfcML\xe4\xdcTS');
         expect(result).toEqual('Whatever.');
     });
-
+h
 
     it('statement containing question mark', function() {
         var result = bob.hey('Ending with a ? means a question.');
