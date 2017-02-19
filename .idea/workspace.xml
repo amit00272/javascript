@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a99f0e65-7678-4592-a9c3-ca1b88f1be9e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -189,7 +189,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
@@ -198,6 +198,7 @@
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
+    <property name="settings.editor.splitter.proportion" value="0.23581213" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -272,7 +273,7 @@
       <updated>1487435445261</updated>
       <workItem from="1487435446881" duration="398000" />
       <workItem from="1487435906111" duration="789000" />
-      <workItem from="1487478338458" duration="29198000" />
+      <workItem from="1487478338458" duration="29287000" />
     </task>
     <task id="LOCAL-00001" summary="First coommit  at gigasecond&#10;">
       <created>1487502213487</created>
@@ -330,11 +331,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487527435787</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commit after delete">
+      <created>1487527927146</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1487527927146</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30385000" />
+    <option name="totallyTimeSpent" value="30474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1372" height="745" extended-state="0" />
