@@ -11,6 +11,17 @@ pGraphs=pGraphs.toLowerCase();
         ocr[gp[0]] = ocr.hasOwnProperty(gp[0]) ? ocr[gp[0]] + 1 : 1
 console.log(ocr)
 
+
+
+    pGraphs.trim().toLowerCase()
+        .split(/[a-z\u00E0-\u00FC]+/i)
+        .map(val=>{
+            val=val.trim();
+            if(val!='') {
+
+                ocr[val] = ocr.hasOwnProperty(val) ? ocr[val] + 1 : 1;
+            }
+        });
 return ocr;
 }
 
