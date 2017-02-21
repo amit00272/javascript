@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a99f0e65-7678-4592-a9c3-ca1b88f1be9e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pangram/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pangram/pangram.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pangram/pangram.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Amit.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Amit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/beer-song/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/beer-song/beer-song.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/beer-song/beer-song.spec.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pangram/pangram.js" afterPath="$PROJECT_DIR$/pangram/pangram.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pangram/pangram.spec.js" afterPath="$PROJECT_DIR$/pangram/pangram.spec.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +25,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pangram.spec.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pangram.spec.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pangram/pangram.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="329">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -38,7 +39,37 @@
         <entry file="file://$PROJECT_DIR$/pangram/pangram.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+              <caret line="8" column="118" lean-forward="false" selection-start-line="8" selection-start-column="118" selection-end-line="8" selection-end-column="118" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="beer-song.spec.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beer-song/beer-song.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="beer-song.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/beer-song/beer-song.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="word-count.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/word-count/word-count.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="14" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -99,7 +130,9 @@
         <option value="$PROJECT_DIR$/bob/bob.spec.js" />
         <option value="$PROJECT_DIR$/isogram/isogram.spec.js" />
         <option value="$PROJECT_DIR$/isogram/isogram.js" />
+        <option value="$PROJECT_DIR$/pangram/pangram.spec.js" />
         <option value="$PROJECT_DIR$/pangram/pangram.js" />
+        <option value="$PROJECT_DIR$/beer-song/beer-song.js" />
       </list>
     </option>
   </component>
@@ -160,7 +193,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pangram" />
+              <option name="myItemId" value="beer-song" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -397,7 +430,7 @@
       <workItem from="1487435446881" duration="398000" />
       <workItem from="1487435906111" duration="789000" />
       <workItem from="1487478338458" duration="30100000" />
-      <workItem from="1487689352616" duration="3136000" />
+      <workItem from="1487689352616" duration="7555000" />
     </task>
     <task id="LOCAL-00001" summary="First coommit  at gigasecond&#10;">
       <created>1487502213487</created>
@@ -490,11 +523,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487692119297</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="commit after isogram">
+      <created>1487692510129</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1487692510129</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34423000" />
+    <option name="totallyTimeSpent" value="38842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1372" height="745" extended-state="0" />
@@ -715,14 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/word-count/word-count.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bob/bob.spec.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -777,18 +809,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pangram/pangram.js">
+    <entry file="file://$PROJECT_DIR$/word-count/word-count.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="48">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="14" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pangram/pangram.spec.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pangram/pangram.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="8" column="118" lean-forward="false" selection-start-line="8" selection-start-column="118" selection-end-line="8" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beer-song/beer-song.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beer-song/beer-song.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

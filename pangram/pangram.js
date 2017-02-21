@@ -1,12 +1,12 @@
 
 var Pangram=function(word){
 
-    this.word=word.toLowerCase();
+    this.word=word;
 }
 
 Pangram.prototype.isPangram=function(){
 
-    return  /([\w\u00C0-\u01BF]).*\1/g.test(this.word);
+     return /(?=.*a)(?=.*b)(?=.*c)(?=.*d)(?=.*e)(?=.*f)(?=.*g)(?=.*h)(?=.*i)(?=.*j)(?=.*k)(?=.*l)(?=.*m)(?=.*n)(?=.*o)(?=.*p)(?=.*q)(?=.*r)(?=.*s)(?=.*t)(?=.*u)(?=.*v)(?=.*w)(?=.*x)(?=.*y)(?=.*z)./i.test(this.word);
 
 }
 module.exports=Pangram;
