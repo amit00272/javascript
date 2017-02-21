@@ -1,7 +1,7 @@
 var Isogram = require('./isogram');
 
 describe('Isogram Test Suite', function () {
-  it('duplicates', function () {
+  xit('duplicates', function () {
     var word = new Isogram('duplicates');
 
     expect(word.isIsogram()).toEqual(true);
