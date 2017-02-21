@@ -5,8 +5,8 @@ var Isogram=function(word){
 
 Isogram.prototype.isIsogram=function () {
 
-return this.word.test();
+return this.word.match(/([A-Za-z])\1/);
 }
 
-console.log(new Isogram("Isogram check").isIsogram())
+console.log(new Isogram("IIsogram check").isIsogram())
 module.exports=Isogram;
