@@ -1,12 +1,12 @@
 
 var Isogram=function(word){
-    this.word=word;
+
+    this.word=word.toLowerCase();
 }
 
-Isogram.prototype.isIsogram=function () {
+Isogram.prototype.isIsogram=function(){
 
-return /([A-Za-z]).*\1/.test(this.word);
+    return  !/([\w\u00C0-\u01BF]).*\1/.test(this.word);
+
 }
-
-console.log(new Isogram("Instag  pzyI").isIsogram())
 module.exports=Isogram;
