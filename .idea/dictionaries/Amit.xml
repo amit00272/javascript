@@ -2,6 +2,7 @@
   <dictionary name="Amit">
     <words>
       <w>occurence</w>
+      <w>pangram</w>
     </words>
   </dictionary>
 </component>
