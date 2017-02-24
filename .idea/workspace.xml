@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a99f0e65-7678-4592-a9c3-ca1b88f1be9e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Amit.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Amit.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anagram/anagram.js" afterPath="$PROJECT_DIR$/anagram/anagram.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/anagram/anagram.spec.js" afterPath="$PROJECT_DIR$/anagram/anagram.spec.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,31 +21,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="anagram.spec.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/anagram/anagram.spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1716">
-              <caret line="78" column="37" lean-forward="true" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="anagram.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="anagram.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/anagram/anagram.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="50" lean-forward="true" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hamming.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hamming/hamming.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="10">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -292,7 +270,7 @@
       <workItem from="1487689352616" duration="7555000" />
       <workItem from="1487741995719" duration="18742000" />
       <workItem from="1487827609938" duration="11239000" />
-      <workItem from="1487911861018" duration="4644000" />
+      <workItem from="1487911861018" duration="5195000" />
     </task>
     <task id="LOCAL-00001" summary="First coommit  at gigasecond&#10;">
       <created>1487502213487</created>
@@ -434,11 +412,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487915413361</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="completion of anagram">
+      <created>1487920874774</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1487920874774</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73467000" />
+    <option name="totallyTimeSpent" value="74018000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="754" extended-state="6" />
@@ -475,7 +460,8 @@
     <MESSAGE value="After complition of beer song" />
     <MESSAGE value="Complition of phone number" />
     <MESSAGE value="starting anagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="starting anagram" />
+    <MESSAGE value="completion of anagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="completion of anagram" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -854,14 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hamming/hamming.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -878,18 +856,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anagram/anagram.js">
+    <entry file="file://$PROJECT_DIR$/anagram/anagram.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="50" lean-forward="true" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+        <state relative-caret-position="220">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anagram/anagram.spec.js">
+    <entry file="file://$PROJECT_DIR$/hamming/hamming.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="78" column="37" lean-forward="true" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+        <state relative-caret-position="176">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anagram/anagram.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
