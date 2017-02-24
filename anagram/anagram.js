@@ -1,22 +1,23 @@
-
 var Anagram=function (str) {
     this.str=str;
 }
 
-Anagram.prototype.matches=function (strAR) {
+Anagram.prototype.matches=function (...restArgs) {
 
-       var ar=[];
-      var s= strAR.reduce((result,val) =>{if(this.str.length==val.length&&val.toLowerCase()!=this.str.toLowerCase()) {
+       var resultantArray=[];
+       var restDisArray=[];
+       Array.isArray(restArgs[0])?restDisArray=restArgs[0]:restArgs.map(x=>restDisArray.push(x));
 
-                      var dval=val;
-                      this.str.split('').map(value => dval = dval.replace(new RegExp(value,"i"), ''));
-                        if(dval.trim()=='') {
-                            ar.push(val);
-                        }
+       restDisArray.map(val =>{
+                        if(this.str.length==val.length&&val.toLowerCase()!=this.str.toLowerCase()) {
+                        let dVal=val;
+                        this.str.split('').map(value => dVal = dVal.replace(new RegExp(value,"i"),''));
 
-                    }},[]);
-       return ar;
+                        if(dVal.trim()=='')
+                            resultantArray.push(val);
+
+                    }});
+       return resultantArray;
 }
 
 module.exports=Anagram;
-//reduce((result,value,index)=>value!=dna2[index]?result+1:result,0);
